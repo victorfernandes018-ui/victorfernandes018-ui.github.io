@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Victor Fernandes · Desenvolvedor Web</title>
+  <meta name="description" content="Victor Fernandes, desenvolvedor web em Campinas. JavaScript, Node.js, MySQL e Cloud, com background em infraestrutura. Sites rápidos e bonitos para negócios reais.">
+  <meta property="og:title" content="Victor Fernandes · Desenvolvedor Web">
+  <meta property="og:description" content="Criando sites que fazem sentido.">
+  <meta property="og:image" content="img/victor-red.jpg">
+  <meta name="theme-color" content="#C4160E">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2232%22 fill=%22%23C4160E%22/><text x=%2232%22 y=%2244%22 font-family=%22Georgia,serif%22 font-size=%2234%22 font-style=%22italic%22 text-anchor=%22middle%22 fill=%22%23FFF1E8%22>V</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Abertura -->
+<div class="intro" aria-hidden="true">
+  <div class="intro-track">
+    <span>Victor Fernandes</span><i>●</i><span>Victor Fernandes</span><i>●</i><span>Victor Fernandes</span><i>●</i><span>Victor Fernandes</span><i>●</i>
+  </div>
+</div>
+
+<div class="cursor" aria-hidden="true"></div>
+
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M7 17 17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm6.5 0h3.83v1.5h.05c.53-1 1.84-1.85 3.78-1.85 4.04 0 4.84 2.5 4.84 5.75v5.6h-4v-4.96c0-1.18-.02-2.7-1.65-2.7-1.65 0-1.9 1.29-1.9 2.62v5.04h-4v-11Z"/></symbol>
+  <symbol id="i-whats" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 14.98L2 22l5.17-1.5A9.9 9.9 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.15l-.3-.18-3.07.89.9-2.99-.2-.31a8.2 8.2 0 1 1 6.85 3.74Zm4.5-6.14c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.13-.55.12-.17.25-.64.8-.78.96-.14.17-.29.19-.53.06a6.7 6.7 0 0 1-3.32-2.9c-.25-.43.25-.4.72-1.33.08-.17.04-.31-.02-.43l-.76-1.83c-.2-.48-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.73 2.73 0 0 0-.85 2.03 4.75 4.75 0 0 0 1 2.52 10.86 10.86 0 0 0 4.16 3.67c1.55.67 2.16.73 2.93.61.47-.07 1.46-.6 1.66-1.17.21-.58.21-1.07.15-1.17-.06-.1-.23-.17-.47-.28Z"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 8V6.5A2.5 2.5 0 0 0 13.5 4h-7A2.5 2.5 0 0 0 4 6.5v7A2.5 2.5 0 0 0 6.5 16H8" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+</svg>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="#topo" class="logo" aria-label="Victor Fernandes, início">Victor<span>.</span></a>
+  <nav class="nav-links" id="navLinks" aria-label="Principal">
+    <a href="#sobre">Sobre</a>
+    <a href="#trabalhos">Trabalhos</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#trajetoria">Trajetória</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <a href="#contato" class="nav-cta">Fale comigo</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="topo">
+  <div class="hero-photo">
+    <img src="img/victor-red.jpg" alt="Foto de Victor Fernandes sorrindo" width="1254" height="1254" fetchpriority="high">
+  </div>
+  <div class="hero-shade" id="shade" aria-hidden="true"></div>
+
+  <div class="hero-content">
+    <p class="kicker"><span class="line"></span> Desenvolvedor web · Campinas, SP</p>
+    <h1 class="hero-title">
+      Criando <em>sites</em><br> que fazem<br> sentido.
+    </h1>
+    <p class="hero-lead">Desenvolvedor em transição, com background em infraestrutura. Construo sites e aplicações com JavaScript, Node.js, MySQL e Cloud, rápidos, simples e prontos para o mundo real.</p>
+    <div class="hero-cta">
+      <a href="#trabalhos" class="pill pill-light">Ver trabalhos</a>
+      <a href="#contato" class="pill pill-ghost">Vamos conversar</a>
+    </div>
+  </div>
+
+  <p class="hint" id="hint"><span class="hint-dot"></span> <span class="hint-desk">Mova o cursor para iluminar o rosto</span><span class="hint-touch">Toque na tela para iluminar o rosto</span></p>
+  <a href="#sobre" class="scroll-cue" aria-label="Rolar para baixo"><span></span></a>
+</section>
+
+<!-- FAIXA -->
+<div class="band" aria-hidden="true">
+  <div class="band-track">
+    <span>JavaScript</span><i>✦</i><span><em>Node.js</em></span><i>✦</i><span>MySQL</span><i>✦</i><span><em>Cloud</em></span><i>✦</i><span>HTML &amp; CSS</span><i>✦</i><span><em>Infraestrutura</em></span><i>✦</i>
+    <span>JavaScript</span><i>✦</i><span><em>Node.js</em></span><i>✦</i><span>MySQL</span><i>✦</i><span><em>Cloud</em></span><i>✦</i><span>HTML &amp; CSS</span><i>✦</i><span><em>Infraestrutura</em></span><i>✦</i>
+  </div>
+</div>
+
+<!-- SOBRE / MANIFESTO -->
+<section class="about" id="sobre">
+  <p class="label"><b>01</b> — Sobre</p>
+  <p class="manifesto" id="manifesto">Da ideia ao site no ar. Eu crio sites rápidos e acessíveis para negócios reais, do salão de beleza à loja de bairro, pensados primeiro para o celular e construídos com código limpo, base sólida de infraestrutura e cuidado <em>intencional</em> em cada detalhe.</p>
+  <div class="about-meta">
+    <div><span class="meta-k" data-count="9">9</span><span class="meta-v">repositórios públicos no GitHub</span></div>
+    <div><span class="meta-k" data-count="6">6</span><span class="meta-v">projetos em destaque, todos no ar</span></div>
+    <div><span class="meta-k">CPS</span><span class="meta-v">Campinas, SP · Barão Geraldo</span></div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="services" id="servicos">
+  <div class="services-head">
+    <div>
+      <p class="label"><b>02</b> — Serviços</p>
+      <h2 class="h2">Tudo que o seu <em>site</em><br> precisa</h2>
+    </div>
+    <div class="services-side">
+      <p>Do design ao deploy: páginas para negócios, landing pages, back-end com Node.js e banco de dados MySQL, publicados na nuvem e prontos para crescer.</p>
+      <a href="#contato" class="pill pill-red">Começar um projeto</a>
+    </div>
+  </div>
+  <div class="pit" id="pit">
+    <span class="tag-chip" data-c="red">Sites institucionais</span>
+    <span class="tag-chip" data-c="cream">Landing pages</span>
+    <span class="tag-chip" data-c="red">Node.js</span>
+    <span class="tag-chip" data-c="outline">APIs REST</span>
+    <span class="tag-chip" data-c="cream">MySQL</span>
+    <span class="tag-chip" data-c="red">Cloud &amp; deploy</span>
+    <span class="tag-chip" data-c="outline">Design responsivo</span>
+    <span class="tag-chip" data-c="cream">SEO local</span>
+    <span class="tag-chip" data-c="outline">Botão de WhatsApp</span>
+    <span class="tag-chip" data-c="red">JavaScript</span>
+    <span class="tag-chip" data-c="cream">Manutenção</span>
+    <span class="tag-chip" data-c="outline">Infraestrutura</span>
+    <p class="pit-hint">arraste as peças ↓</p>
+  </div>
+</section>
+
+<!-- TRABALHOS -->
+<section class="work" id="trabalhos">
+  <div class="work-head">
+    <p class="label"><b>03</b> — Trabalhos selecionados</p>
+    <h2 class="h2 h2-xl">Meus <em>trabalhos</em></h2>
+  </div>
+
+  <div class="projects">
+
+    <article class="project">
+      <a class="shot" href="https://victorfernandes018-ui.github.io/morando-em-barao/" target="_blank" rel="noopener" aria-label="Abrir Morando em Barão">
+        <img class="shot-desk" src="img/morando-em-barao.jpg" alt="Página inicial do guia Morando em Barão" loading="lazy" width="1200" height="750">
+        <img class="shot-phone" src="img/morando-em-barao-mobile.jpg" alt="" loading="lazy" width="420" height="860">
+      </a>
+      <div class="project-info">
+        <div class="project-top"><span class="num">01</span><div><h3>Morando em Barão</h3><p class="sub">Guia de bairro · 2026</p></div></div>
+        <p class="desc">Guia moderno de Barão Geraldo: moradia perto das universidades, notícias, mapa, agenda e telefones úteis, com busca por categoria e modo escuro.</p>
+        <p class="tools-t">Ferramentas e recursos</p>
+        <ul class="tools"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Busca</li><li>Modo escuro</li></ul>
+        <div class="links"><a href="https://victorfernandes018-ui.github.io/morando-em-barao/" target="_blank" rel="noopener" class="lk">Ver site <svg><use href="#i-arrow"/></svg></a><a href="https://github.com/victorfernandes018-ui/morando-em-barao" target="_blank" rel="noopener" class="lk lk-soft">Código</a></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <a class="shot" href="https://victorfernandes018-ui.github.io/all-beauty/" target="_blank" rel="noopener" aria-label="Abrir All Beauty">
+        <img class="shot-desk" src="img/all-beauty.jpg" alt="Página inicial do site do salão All Beauty" loading="lazy" width="1200" height="750">
+        <img class="shot-phone" src="img/all-beauty-mobile.jpg" alt="" loading="lazy" width="420" height="860">
+      </a>
+      <div class="project-info">
+        <div class="project-top"><span class="num">02</span><div><h3>All Beauty</h3><p class="sub">Salão de beleza · 2026</p></div></div>
+        <p class="desc">Site institucional para um salão em Barão Geraldo, com identidade delicada, galeria de trabalhos, serviços e agendamento direto pelo WhatsApp.</p>
+        <p class="tools-t">Ferramentas e recursos</p>
+        <ul class="tools"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Galeria</li><li>WhatsApp</li></ul>
+        <div class="links"><a href="https://victorfernandes018-ui.github.io/all-beauty/" target="_blank" rel="noopener" class="lk">Ver site <svg><use href="#i-arrow"/></svg></a><a href="https://github.com/victorfernandes018-ui/all-beauty" target="_blank" rel="noopener" class="lk lk-soft">Código</a></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <a class="shot" href="https://victorfernandes018-ui.github.io/loja-da-lucia/" target="_blank" rel="noopener" aria-label="Abrir Loja da Lúcia">
+        <img class="shot-desk" src="img/loja-da-lucia.jpg" alt="Página inicial do site da Loja da Lúcia" loading="lazy" width="1200" height="750">
+        <img class="shot-phone" src="img/loja-da-lucia-mobile.jpg" alt="" loading="lazy" width="420" height="860">
+      </a>
+      <div class="project-info">
+        <div class="project-top"><span class="num">03</span><div><h3>Loja da Lúcia</h3><p class="sub">Comércio de bairro · 2026</p></div></div>
+        <p class="desc">Presença online para uma loja de presentes, papelaria e moda: horários, telefone, avaliações e o caminho até a loja em poucos segundos.</p>
+        <p class="tools-t">Ferramentas e recursos</p>
+        <ul class="tools"><li>HTML</li><li>CSS</li><li>Ícones SVG</li><li>Mapa</li><li>SEO local</li></ul>
+        <div class="links"><a href="https://victorfernandes018-ui.github.io/loja-da-lucia/" target="_blank" rel="noopener" class="lk">Ver site <svg><use href="#i-arrow"/></svg></a><a href="https://github.com/victorfernandes018-ui/loja-da-lucia" target="_blank" rel="noopener" class="lk lk-soft">Código</a></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <a class="shot" href="https://victorfernandes018-ui.github.io/Dom-Navalhete/" target="_blank" rel="noopener" aria-label="Abrir Dom Navalhete">
+        <img class="shot-desk" src="img/dom-navalhete.jpg" alt="Página inicial do site da barbearia Dom Navalhete" loading="lazy" width="1200" height="750">
+        <img class="shot-phone" src="img/dom-navalhete-mobile.jpg" alt="" loading="lazy" width="420" height="860">
+      </a>
+      <div class="project-info">
+        <div class="project-top"><span class="num">04</span><div><h3>Dom Navalhete</h3><p class="sub">Barbearia · 2026</p></div></div>
+        <p class="desc">Site para uma barbearia premium em Barão Geraldo: visual escuro e elegante, serviços, equipe e agendamento com um toque.</p>
+        <p class="tools-t">Ferramentas e recursos</p>
+        <ul class="tools"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Agendamento</li></ul>
+        <div class="links"><a href="https://victorfernandes018-ui.github.io/Dom-Navalhete/" target="_blank" rel="noopener" class="lk">Ver site <svg><use href="#i-arrow"/></svg></a><a href="https://github.com/victorfernandes018-ui/Dom-Navalhete" target="_blank" rel="noopener" class="lk lk-soft">Código</a></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <a class="shot" href="https://victorfernandes018-ui.github.io/rei-leao/" target="_blank" rel="noopener" aria-label="Abrir O Rei Leão">
+        <img class="shot-desk" src="img/rei-leao.jpg" alt="Página inicial do site interativo O Rei Leão" loading="lazy" width="1200" height="750">
+        <img class="shot-phone" src="img/rei-leao-mobile.jpg" alt="" loading="lazy" width="420" height="860">
+      </a>
+      <div class="project-info">
+        <div class="project-top"><span class="num">05</span><div><h3>O Rei Leão</h3><p class="sub">Projeto interativo · 2026</p></div></div>
+        <p class="desc">Site temático para explorar animação e interação: modo dia/noite, céu animado, progresso de leitura e um quiz com pontuação em JavaScript puro.</p>
+        <p class="tools-t">Ferramentas e recursos</p>
+        <ul class="tools"><li>JavaScript</li><li>Animações CSS</li><li>Quiz</li><li>Dia/noite</li></ul>
+        <div class="links"><a href="https://victorfernandes018-ui.github.io/rei-leao/" target="_blank" rel="noopener" class="lk">Ver site <svg><use href="#i-arrow"/></svg></a><a href="https://github.com/victorfernandes018-ui/rei-leao" target="_blank" rel="noopener" class="lk lk-soft">Código</a></div>
+      </div>
+    </article>
+
+    <article class="project">
+      <a class="shot" href="https://victorfernandes018-ui.github.io/seja-um-dev/" target="_blank" rel="noopener" aria-label="Abrir Seja um Dev">
+        <img class="shot-desk" src="img/seja-um-dev.jpg" alt="Página inicial do guia Seja um Dev" loading="lazy" width="1200" height="750">
+        <img class="shot-phone" src="img/seja-um-dev-mobile.jpg" alt="" loading="lazy" width="420" height="860">
+      </a>
+      <div class="project-info">
+        <div class="project-top"><span class="num">06</span><div><h3>Seja um Dev</h3><p class="sub">Guia para iniciantes · 2025</p></div></div>
+        <p class="desc">Hub de conhecimento para quem está começando na programação, com conteúdos essenciais, links confiáveis e uma busca que filtra os recursos certos.</p>
+        <p class="tools-t">Ferramentas e recursos</p>
+        <ul class="tools"><li>JavaScript</li><li>JSON</li><li>Busca</li><li>CSS</li></ul>
+        <div class="links"><a href="https://victorfernandes018-ui.github.io/seja-um-dev/" target="_blank" rel="noopener" class="lk">Ver site <svg><use href="#i-arrow"/></svg></a><a href="https://github.com/victorfernandes018-ui/seja-um-dev" target="_blank" rel="noopener" class="lk lk-soft">Código</a></div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- TRAJETÓRIA -->
+<section class="journey" id="trajetoria">
+  <p class="label"><b>04</b> — Trajetória</p>
+  <h2 class="h2">Onde eu <em>cheguei</em></h2>
+  <ol class="timeline" id="timeline">
+    <li>
+      <div class="tl-role"><h3>Desenvolvedor Web</h3><p>Freelancer · Campinas, SP</p></div>
+      <span class="tl-when">AGORA</span>
+      <p class="tl-desc">Criando sites para negócios locais de Barão Geraldo, como salão, loja, barbearia e um guia do bairro, do design à publicação.</p>
+    </li>
+    <li>
+      <div class="tl-role"><h3>Projetos reais</h3><p>Front-end &amp; deploy</p></div>
+      <span class="tl-when">2026</span>
+      <p class="tl-desc">Primeiros clientes e projetos com impacto, incluindo um espaço de apoio a famílias que cuidam de pessoas com Alzheimer.</p>
+    </li>
+    <li>
+      <div class="tl-role"><h3>Transição para dev</h3><p>JavaScript · Node.js · MySQL</p></div>
+      <span class="tl-when">2025</span>
+      <p class="tl-desc">Começo dos estudos de desenvolvimento e dos primeiros projetos abertos, como o guia Seja um Dev para quem está começando.</p>
+    </li>
+    <li>
+      <div class="tl-role"><h3>Infraestrutura</h3><p>Redes · servidores · cloud</p></div>
+      <span class="tl-when">ANTES</span>
+      <p class="tl-desc">Background em infraestrutura de TI, que hoje me dá uma visão completa de como um site funciona por trás das telas.</p>
+    </li>
+  </ol>
+</section>
+
+<!-- CONTATO -->
+<section class="contact" id="contato">
+  <div class="contact-glow" aria-hidden="true"></div>
+  <p class="label label-c">Disponível para novos projetos</p>
+  <h2 class="contact-title">Vamos construir algo<br> que <em>valha a pena.</em></h2>
+  <div class="mail-row" id="mailRow">
+    <a class="mail" id="mailLink"></a>
+    <button class="copy" id="copyBtn" aria-label="Copiar e-mail"><svg><use href="#i-copy"/></svg><span>Copiar</span></button>
+  </div>
+  <div class="socials">
+    <a data-contact="whatsapp" class="soc" target="_blank" rel="noopener"><svg><use href="#i-whats"/></svg> WhatsApp</a>
+    <a data-contact="linkedin" class="soc" target="_blank" rel="noopener"><svg><use href="#i-linkedin"/></svg> LinkedIn</a>
+    <a data-contact="github" class="soc" target="_blank" rel="noopener"><svg><use href="#i-github"/></svg> GitHub</a>
+    <a data-contact="instagram" class="soc" target="_blank" rel="noopener"><svg><use href="#i-insta"/></svg> Instagram</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <span>© <span id="year"></span> Victor Fernandes</span>
+  <span>Campinas, SP · Feito à mão com HTML, CSS e JavaScript</span>
+  <a href="#topo">Voltar ao topo ↑</a>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js" defer></script>
+<script src="script.js" defer></script>
+</body>
+</html>
