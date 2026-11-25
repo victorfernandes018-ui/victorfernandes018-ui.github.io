@@ -3,9 +3,9 @@
    ========================================================= */
 const CONTATOS = {
   email:     "victorfernandes018@gmail.com",            // e-mail público do seu GitHub
-  linkedin:  "https://www.linkedin.com/in/victor-fernandess",
+  linkedin:  "https://www.linkedin.com/in/v%C3%ADctor-silva-fernandes-459a3020a",
   github:    "victorfernandes018-ui",
-  whatsapp:  "",   // só números com DDI e DDD. Ex: "5519999999999"
+  whatsapp:  "5519981683831",   // só números com DDI e DDD
   instagram: "",   // só o usuário, sem @
 };
 const MSG_WHATS = "Olá, Victor! Vi seu portfólio e quero conversar sobre um site.";
